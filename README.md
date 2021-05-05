@@ -10,3 +10,7 @@ Given an RGB image of `N x M` dimensions, produce two "noise" RGB images of `N x
 
 - Currently uses a pseudorandom number generator which is not cryptographically secure.
 - Frontend and overall code quality were only an afterthought; clean-up would be nice.
+
+## Credits
+
+- https://css-tricks.com/manipulating-pixels-using-canvas/
