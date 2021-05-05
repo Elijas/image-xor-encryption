@@ -4,6 +4,9 @@
 
 Super quick and dirty Proof of Concept.
 
-Given an RGB image of NxM dimensions, produce two RGB images of NxM dimensions, both of which are required to get the original image.
+Given an RGB image of `N x M` dimensions, produce two "noise" RGB images of `N x M` dimensions, both of which are required to get the original image.
 
-Warning: currently uses a pseudorandom number generator which is not cryptographically secure.
+## Limitations 
+
+- Currently uses a pseudorandom number generator which is not cryptographically secure.
+- Frontend and overall code quality were only an afterthought; clean-up would be nice.
